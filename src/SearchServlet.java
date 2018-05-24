@@ -52,7 +52,7 @@ public class SearchServlet extends HttpServlet
 		Connection c;
 		ResultSet rset = null;
 
-		int searchId = 0;
+		Integer searchId = 0;
 		String searchName = "";
 		Date searchDate = null;
 		//入力されたIDを取得
